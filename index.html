@@ -342,10 +342,15 @@ footer p{font-size:.7rem;color:var(--muted);letter-spacing:.06em}
   <div class="video-layout">
     <div class="video-shell reveal" id="videoShell">
       <div class="vc tl"></div><div class="vc tr"></div><div class="vc bl"></div><div class="vc br"></div>
-      <video id="videoResume" class="video-embed" controls playsinline preload="metadata" title="Video resume — Danna Paula Llagas">
-        <source src="assets/video-resume.mp4" type="video/mp4">
-        Your browser does not support embedded video. Use the links below the player.
-      </video>
+      <iframe
+  id="videoResume"
+  class="video-embed"
+  src="https://drive.google.com/file/d/12CBRD4IoKTjf43tCMQnnYqfcMZg2KXG8/preview"
+  allow="autoplay"
+  allowfullscreen
+  title="Video resume — Danna Paula Llagas"
+  style="border:none;width:100%;height:100%">
+</iframe>
       <div class="video-error" id="videoError" role="alert">
         <p>Place your exported video file at <strong>assets/video-resume.mp4</strong> (see <strong>assets/README.txt</strong>).</p>
         <div class="video-alt-row">
