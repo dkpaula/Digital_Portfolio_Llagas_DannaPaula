@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Placeholder portrait  replace with assets/headshot.jpg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1510"/>
+      <stop offset="100%" style="stop-color:#3d3428"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
+  <circle cx="100" cy="88" r="36" fill="#c9a84c" opacity="0.35"/>
+  <ellipse cx="100" cy="168" rx="52" ry="44" fill="#c9a84c" opacity="0.22"/>
+  <text x="100" y="108" text-anchor="middle" fill="#e8c97a" font-family="Georgia,serif" font-size="42" font-style="italic">DL</text>
+</svg>
